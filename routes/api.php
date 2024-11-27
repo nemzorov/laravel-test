@@ -9,3 +9,4 @@ Route::get('/user', function (Request $request) {
 
 
 Route::apiResource('/posts', App\Http\Controllers\PostController::class);
+Route::apiResource('/todos', App\Http\Controllers\TodoController::class);
